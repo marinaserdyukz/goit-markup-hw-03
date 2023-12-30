@@ -55,6 +55,7 @@ ul {
 .summit-navigation {
   display: flex;
   margin-right: auto;
+  align-items: center;
 }
 
 .summit-logo-blue {
@@ -108,10 +109,12 @@ ul {
 .contacts-menu {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .contacts-menu-item {
   display: flex;
+  align-items: center;
 }
 
 .contacts-menu-link {
@@ -182,11 +185,10 @@ ul {
   width: 1px;
   height: 1px;
   margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .features {
@@ -208,6 +210,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -231,6 +234,7 @@ ul {
 
 .team-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-information {
@@ -245,7 +249,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-post-mini-title {
@@ -255,6 +259,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-post-text {
@@ -271,11 +276,17 @@ ul {
   padding-bottom: 120px;
 }
 
+.portfolio-container {
+  padding: 32px 16px;
+  border-top: none;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px 24px;
+  column-gap: 24px;
   margin: 0 auto;
+  row-gap: 48px;
 }
 
 .portfolio-information {
@@ -295,7 +306,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-mini-title {
@@ -304,6 +315,7 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -315,7 +327,7 @@ ul {
 }
 
 .conclusion-container {
-  padding: 101.5px 0 100px;
+  padding: 100px 0;
 }
 
 .conclusion {
@@ -331,6 +343,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
 .conclusion-logo {
