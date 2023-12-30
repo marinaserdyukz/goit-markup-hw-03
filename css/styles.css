@@ -4,15 +4,57 @@ body {
   background-color: #fff;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+}
+
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 ul {
   list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-.summit-logo {
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 120px 0px 120px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.summit {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.summit-navigation {
+  display: flex;
+}
+
+.summit-logo-blue {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -20,9 +62,10 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 25.5px 0px;
 }
 
-.summit-logo-blue {
+.summit-logo {
   color: #2e2f42;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -30,9 +73,17 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding: 25.5px 0px;
+  margin-right: 76px;
+}
+
+.summit-menu-list {
+  display: flex;
+  gap: 40px;
 }
 
 .summit-menu-item {
+  display: flex;
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -42,11 +93,26 @@ ul {
 
 .summit-menu-link {
   color: #2e2f42;
+  padding: 24px 0px;
+  display: block;
+}
+
+.summit-link-contacts {
+  margin-right: 332px;
 }
 
 .summit-menu-link:hover,
 .summit-menu-link:focus {
   color: #404bbf;
+}
+
+.contacts-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.contacts-menu-item {
+  display: flex;
 }
 
 .contacts-menu-link {
@@ -56,6 +122,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0px;
 }
 
 .contacts {
@@ -65,6 +132,12 @@ ul {
 .contacts-menu-link:hover,
 .contacts-menu-link:focus {
   color: #404bbf;
+}
+
+.top-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  margin: 0 auto;
 }
 
 .top {
@@ -78,6 +151,8 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-bottom: 48px;
+  max-width: 496px;
 }
 
 .top-push {
@@ -90,9 +165,39 @@ ul {
   cursor: pointer;
 }
 
+.top-push-btn {
+  display: flex;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+
 .top-push:hover,
 .top-push:focus {
   background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  overflow: hidden;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  padding: 120px 0;
+}
+
+.features-list-item {
+  margin: 120px 0;
+  width: calc((100% - 24px * 3) / 4);
 }
 
 .features_mini-title {
@@ -110,8 +215,19 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.team-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .team-post {
   background-color: #f4f4fd;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
 }
 
 .team-list-item {
@@ -126,10 +242,15 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
-.team-list {
-  background-color: #ffffff;
+.team-img {
+  padding-bottom: 32px;
+}
+
+.team-post-text {
+  padding-bottom: 32px;
 }
 
 .team-post-mini-title {
@@ -150,6 +271,23 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.portfolio-container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 32px;
+  margin: 0 auto;
+}
+
+.portfolio-list-item {
+  border: 1px solid #e7e9fc;
+  width: calc((100% - 24 * 2) / 3);
+}
+
 .portfolio-title {
   color: #2e2f42;
   text-align: center;
@@ -158,6 +296,7 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-bottom: 72px;
 }
 
 .portfolio-mini-title {
@@ -176,11 +315,15 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.conclusion-container {
+  padding: 101.5px 0 100px;
+}
+
 .conclusion {
   background-color: #2e2f42;
 }
 
-.conclusion-logo {
+.conclusion-logo-blue {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -188,9 +331,10 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline;
 }
 
-.conclusion-logo-blue {
+.conclusion-logo {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -206,4 +350,7 @@ ul {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 17.5px;
+  width: 264px;
 }
