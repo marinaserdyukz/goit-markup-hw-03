@@ -17,6 +17,8 @@ h6 {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 a {
@@ -52,6 +54,7 @@ ul {
 
 .summit-navigation {
   display: flex;
+  margin-right: auto;
 }
 
 .summit-logo-blue {
@@ -63,6 +66,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 25.5px 0px;
+  margin-right: 76px;
 }
 
 .summit-logo {
@@ -74,7 +78,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding: 25.5px 0px;
-  margin-right: 76px;
 }
 
 .summit-menu-list {
@@ -95,10 +98,6 @@ ul {
   color: #2e2f42;
   padding: 24px 0px;
   display: block;
-}
-
-.summit-link-contacts {
-  margin-right: 332px;
 }
 
 .summit-menu-link:hover,
@@ -135,13 +134,12 @@ ul {
 }
 
 .top-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
   margin: 0 auto;
 }
 
 .top {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .top-title {
@@ -153,6 +151,8 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 48px;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .top-push {
@@ -189,14 +189,16 @@ ul {
   overflow: hidden;
 }
 
-.features-list {
-  display: flex;
-  gap: 24px;
+.features {
   padding: 120px 0;
 }
 
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .features-list-item {
-  margin: 120px 0;
   width: calc((100% - 24px * 3) / 4);
 }
 
@@ -215,13 +217,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.team-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 .team-post {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-list {
@@ -234,6 +233,10 @@ ul {
   background-color: #ffffff;
 }
 
+.team-information {
+  padding: 32px 0;
+}
+
 .team-post-title {
   color: #2e2f42;
   text-align: center;
@@ -243,14 +246,6 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   padding-bottom: 72px;
-}
-
-.team-img {
-  padding-bottom: 32px;
-}
-
-.team-post-text {
-  padding-bottom: 32px;
 }
 
 .team-post-mini-title {
@@ -271,7 +266,7 @@ ul {
   letter-spacing: 0.02em;
 }
 
-.portfolio-container {
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -279,13 +274,17 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px 32px;
+  gap: 32px 24px;
   margin: 0 auto;
+}
+
+.portfolio-information {
+  padding: 32px 0;
 }
 
 .portfolio-list-item {
   border: 1px solid #e7e9fc;
-  width: calc((100% - 24 * 2) / 3);
+  width: calc((100% - 24px * 2) / 3);
 }
 
 .portfolio-title {
