@@ -1,3 +1,16 @@
+.features-container {
+
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+width: calc((100%-78px)/3);
+}
+
 .features-item-title {
     font-weight: 500;
     font-size: 20px;

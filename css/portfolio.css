@@ -1,3 +1,24 @@
+.portfolio-container {
+    display: flex;
+align-items: center;
+flex-direction: column;
+gap: 72px;
+}
+
+.portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+width: calc((100%-48px)/2);
+}
+
+.item-info {
+    padding: 32px 16px;
+}
+
 .portfolio-title {
      font-weight: 700;
      font-size: 36px;

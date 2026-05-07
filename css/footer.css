@@ -1,3 +1,16 @@
+.footer-container {
+    display: flex;
+    flex-direction: column;
+  
+padding: 100px 15px;
+
+}
+
+.footer-info {
+max-width: 264px;
+
+}
+
 .footer {
     background-color: #2E2F42;
 }
@@ -15,6 +28,7 @@
     color: #4D5AE5;
 }
 
-.footer p {
+.footer-text {
     color: #F4F4FD;
+
 }
