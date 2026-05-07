@@ -1,0 +1,26 @@
+.team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+text-align: center;
+}
+
+.team-item {
+    background-color: white;
+}
+
+.team-item h3 {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+}
+
+.team-item p {
+text-align: center;
+color: #434455;
+}
