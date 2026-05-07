@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 48px;
-    padding: 68px 0;
+    padding: 188px 0;
 }   
 
 .hero {
@@ -16,6 +16,7 @@
     line-height: 1.07;
     text-align: center;
     color: white;
+    max-width: 496px;
 }
 
 .hero-button {
@@ -26,6 +27,7 @@
    cursor: pointer;
    border-radius: 4px;
 padding: 16px 32px;
+border: none;
 }
 
 .hero-button:hover,

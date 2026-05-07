@@ -1,8 +1,7 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-  
-padding: 100px 15px;
+
 
 }
 
@@ -13,6 +12,7 @@ max-width: 264px;
 
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-link {

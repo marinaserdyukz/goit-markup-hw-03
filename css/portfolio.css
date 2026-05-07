@@ -12,11 +12,19 @@ gap: 72px;
 }
 
 .portfolio-item {
-width: calc((100%-48px)/2);
+width: calc((100% - 72px)/3);
+
 }
 
 .item-info {
     padding: 32px 16px;
+    border-right: 1px solid #e7e9fc;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    gap: 8px;
+display: flex;
+flex-direction: column;
+
 }
 
 .portfolio-title {
@@ -34,4 +42,9 @@ width: calc((100%-48px)/2);
 
 .portfolio-item p {
     color: #434455;
+}
+
+.portfolio-item img {
+display: block;
+width: 100%;
 }
