@@ -7,6 +7,9 @@
 
 .footer-info {
 max-width: 264px;
+display: flex;
+gap: 16px;
+flex-direction: column;
 
 }
 

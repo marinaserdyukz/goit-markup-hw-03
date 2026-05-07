@@ -8,7 +8,10 @@
 }
 
 .features-item {
-width: calc((100% -96px)/4);
+width: calc((100% -72px)/4);
+    display: flex;
+    gap: 8px 0px;
+    flex-direction: column;
 }
 
 .features-item-title {
@@ -22,8 +25,3 @@ width: calc((100% -96px)/4);
     color: #434455;
 }
 
-.features-info {
-    display: flex;
-    gap: 8px 0px;
-    flex-direction: column;
-}
